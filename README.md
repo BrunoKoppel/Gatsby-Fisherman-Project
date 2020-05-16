@@ -7,7 +7,7 @@
   Gatsby's default starter
 </h1>
 
-*You can clone this git and run the commands:
+*You can clone this git and run the command:
 
 
 <code> npm install -g gatsby-cli </code>
@@ -15,6 +15,8 @@
 
 *and to develop you just run the command:
 
+
 <code> gatsby develop </code>
+
 
 #Enjoy!
