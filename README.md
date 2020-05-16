@@ -11,6 +11,7 @@
 
 
 <code> npm install -g gatsby-cli </code>
+<br>
 <code> npm install</code>
 
 *and to develop you just run the command:
