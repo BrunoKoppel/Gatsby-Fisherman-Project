@@ -1,0 +1,6 @@
+[
+    {
+        "Music" : "My music is a mix of Progressive Electronic that may or may not contain Acoustic elements, It mostly reliants on Synthesizers and Drum Machines. I personally play bass, guitar, and piano. (I wish I could play drums, but acoustic ones are too loud for my apartment and I don't have space for a electronic kit, which would be awesome for my music) As for the Software I use, it is Ableton Live 10 with MAX, this last one allows me to build my own synthesizers from scratch using MAX presets",
+        "Arduino": "This is two Arduino circuits that I build to control a group of LED lights. The first one is just a loop of lights that increases speed with one button and the other triggers the circuit to start. The second one is mimicing a sequence of Traffic lights in a European style"
+    }
+]

@@ -3,7 +3,7 @@ import React from "react"
 import { PageProps, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import InjectBooks from "../components/PageTwoBookContent.js"
+import InjectBooks from "../components/InjectBooks.js"
 
 const SecondPage = (props: PageProps) => (
   <Layout>
@@ -13,8 +13,8 @@ const SecondPage = (props: PageProps) => (
         <InjectBooks/>
     </table>
     <footer style={{}}>
-      <button><Link to="/">Homepage (Brief Intro)</Link> </button>
-      <button><Link to="/page-3/">Page 3 (Music and a Project)</Link></button>
+      <button><Link to="/">Homepage</Link> </button>
+      <button><Link to="/page-3/">Page 3</Link></button>
     </footer>
     
   </Layout>

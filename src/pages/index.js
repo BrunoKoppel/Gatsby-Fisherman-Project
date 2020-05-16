@@ -36,8 +36,8 @@ const IndexPage = () => (
 
 
     <p></p>
-    <button><Link to="/page-2/">Page 2 (books)</Link> </button>
-    <button><Link to="/page-3/">Page 3 (Music and a Project)</Link></button>
+    <button><Link to="/page-2/">Page 2</Link> </button>
+    <button><Link to="/page-3/">Page 3</Link></button>
   </Layout>
 )
 

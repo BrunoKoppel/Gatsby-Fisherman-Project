@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import ImageServer from './ImageServer.js'
-import './PageTwoBookContent.css'
+import './InjectBooks.css'
 
 const BookData = () => {
   const data = useStaticQuery(graphql`
