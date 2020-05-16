@@ -1,0 +1,16 @@
+[
+    { 
+        "Title": "The Swerve",
+        "Author": "Stephen Greenblatt",
+        "Description": "Wonderful book that talks about many aspects that lead Poggio Bracciolini, a 15th century papal emissary and obsessive book hunter, to find De Rerum Natura an old book from the 1st century. This book paints a great picture of how knowledge printed in books was passed into the older generations. Books would get mold, maggots, detereorate from the normal pass of time.",
+        "Description1": "Wonderful book that talks about many aspects that lead Poggio Bracciolini, a 15th century papal emissary and obsessive book hunter, to find ",
+        "OnTheNatureOfThings": "De Rerum Natura",
+        "Description2": "an old book from the 1st century. This book paints a great picture of how knowledge printed in books was passed into the older generations. Books would get mold, maggots, detereorate from the normal pass of time."
+    
+    }, 
+    { 
+        "Title": "Hackers and Painters",
+        "Author": "Paul Graham",
+        "Description": "This book resonated with my artistic background and helped me draw inspiration to pursue my Software career one more time. It touches on many points about how Paul had to manage his Online Store during the early dot com era. A very inspirational book about what it really means to be a programmer on this age or what Paul likes to see it as: what hackers and painters are tying to do is make good things"
+    }
+]

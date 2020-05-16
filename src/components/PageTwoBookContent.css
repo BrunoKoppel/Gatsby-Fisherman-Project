@@ -1,0 +1,12 @@
+.book-text {
+    padding: 10px; 
+    max-width: 450px;
+}
+
+.book-img {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    max-width: 200px;
+}
+

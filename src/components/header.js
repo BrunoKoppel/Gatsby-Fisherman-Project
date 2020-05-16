@@ -2,31 +2,41 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import ImageServer from "./ImageServer.js"
+
 const Header = ({ siteTitle }) => (
+  
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: 'rgb(228, 180, 118)',
+      overflow: 'auto'
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: '0',
+        maxWidth: 950,
+        display: 'inline'
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <div style={{ margin: '1rem', maxWidth: `60px`, float: 'left', width: '100%'}}>
+        <ImageServer alt="Gatsby Icon" filename="gatsby-icon.png"/>
+      </div>
+      <div style={{ marginTop: '1.5rem', display: 'flex' }} >
+        <h1>
+          <Link
+            to="/"
+            style={{
+              color: 'rgb(102.5, 66.6, 6.6)',
+              textDecoration: `none`
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </h1>
+      </div>
+        
+      
     </div>
   </header>
 )

@@ -30,14 +30,18 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `1rem 1.0875rem 1.45rem`,
         }}
       >
         <main>{children}</main>
-        <footer>
+
+        <footer style={{}}>
+          <div>Author: <a href="http://brunokoppel.com">Bruno Köppel</a></div>
+
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          
         </footer>
       </div>
     </>
